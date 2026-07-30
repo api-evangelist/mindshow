@@ -1,4 +1,16 @@
 aid: mindshow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mindshow.png
 name: Mindshow
 description: 'Mindshow is a company surfaced as a portfolio company of threshold-ventures and added to
   the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
@@ -25,3 +37,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.mindshow.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'No API surface found. mindshow.com (the Threshold Ventures portfolio company)
+    is defunct — the domain is parked/for-sale on Spaceship (NS launch1/2.spaceship.net).
+    mindshow.ai is an unrelated Cloudflare-fronted Chinese-language Vue SPA with no
+    public API/docs/security.txt. GitHub "mindshow" is an unrelated hardware developer.'
